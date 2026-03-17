@@ -1,4 +1,4 @@
-*london-house-price-prediction-ml
+london-house-price-prediction-ml
 
 Project Overview
 
