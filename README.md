@@ -1,7 +1,12 @@
-TL;DR
+## TL;DR
 
 Built a machine learning–based decision system to identify undervalued assets in the London housing market, achieving R² = 0.806 and selecting 200 investment opportunities using a fully automated ranking framework.
-Project Overview
+
+## 📊 Model Performance
+
+![Predicted vs Actual](predicted_vs_actual.png)
+
+## Project Overview
 
 This project analyzes and predicts London house prices using machine learning, with a focus not only on model accuracy but on extracting actionable insights that can support real-world decision-making.
 
