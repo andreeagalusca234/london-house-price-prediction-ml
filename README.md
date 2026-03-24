@@ -26,16 +26,17 @@ Other structural and geographic features
 Analysed price distribution across boroughs
 Identified trends, correlations, and outliers
 Evaluated missing values and data quality
-2. Data Preprocessing
+
+3. Data Preprocessing
 Handled missing values and inconsistencies
 Encoded categorical variables
 Scaled and transformed features where necessary
-3. Feature Engineering
+5. Feature Engineering
 Selected key variables impacting price
 Reduced noise and irrelevant features
 Improved model interpretability
 
-5. Model Development
+6. Model Development
 
 Tested multiple machine learning models:
 Linear Regression
@@ -45,8 +46,11 @@ Random Forest (if applicable)
 5. Model Evaluation
 
 Models were evaluated using:
+
 RMSE (Root Mean Squared Error)
+
 R² Score
+
 These metrics helped compare performance and select the most suitable model.
 
 ![Predicted vs Actual](predicted_vs_actual.png)
@@ -54,13 +58,17 @@ These metrics helped compare performance and select the most suitable model.
 📈 Key Insights
 
 Location (borough) is the strongest driver of house prices
+
 Property size and number of rooms significantly influence valuation
+
 Price distribution varies substantially across different areas of London
 
 🧠 Key Learnings
 
 Data preprocessing and feature selection are critical for model performance
+
 Simpler models can perform well when relationships are mostly linear
+
 Interpreting results is as important as building the model
 
 🚀 Business Impact
@@ -68,35 +76,40 @@ Interpreting results is as important as building the model
 This project demonstrates how machine learning can:
 
 Support property pricing decisions
+
 Assist in real estate investment analysis
+
 Provide insights into market dynamics
 
 The same approach can be applied in fintech for:
+
 Credit risk modelling
+
 Pricing algorithms
+
 Customer segmentation
 
 🛠️ Tech Stack
 
 Python
+
 Pandas, NumPy
+
 Scikit-learn
+
 Matplotlib / Seaborn
 
 🔮 Future Improvements
 
 Deploy the model as an API (Flask or FastAPI)
-Integrate real-time property data
-Incorporate external datasets (transport, crime, schools)
-Improve performance using advanced models (e.g. XGBoost)
 
+Integrate real-time property data
+
+Incorporate external datasets (transport, crime, schools)
+
+Improve performance using advanced models (e.g. XGBoost)
 
 
 The model demonstrates strong predictive performance, with predictions closely aligned to actual values.  
 Most observations cluster tightly around the diagonal, indicating good generalisation, while variance increases for high-value properties, a common pattern in real-world housing data.
 
-## Project Overview
-
-This project analyzes and predicts London house prices using machine learning, with a focus not only on model accuracy but on extracting actionable insights that can support real-world decision-making.
-
-Beyond building predictive models, the analysis identifies key drivers of price variation across boroughs and translates these findings into business recommendations. The goal is to demonstrate how data can be used to improve pricing strategies, optimize marketplace performance, and enhance user experience.
