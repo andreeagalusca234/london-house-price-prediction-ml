@@ -12,7 +12,9 @@ Accurately pricing real estate assets is critical for buyers, sellers, investors
 This project aims to:
 
 Estimate property prices based on key features
+
 Identify the main drivers of price variation
+
 Demonstrate how data can support pricing and investment decisions
 
 
