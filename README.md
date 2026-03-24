@@ -7,40 +7,63 @@ This project builds a machine learning model to predict house prices in London u
 🎯 Business Problem
 
 Accurately pricing real estate assets is critical for buyers, sellers, investors, and financial institutions. Mispricing can lead to poor investment decisions or financial losses.
+
+
 This project aims to:
+
 Estimate property prices based on key features
+
 Identify the main drivers of price variation
+
 Demonstrate how data can support pricing and investment decisions
+
 
 📊 Dataset
 
 The dataset includes information on London properties, such as:
+
 Location (borough)
+
 Property size
+
 Number of rooms
+
 Other structural and geographic features
 
 🔍 Approach
 
 1. Exploratory Data Analysis (EDA)
+
 Analysed price distribution across boroughs
+
 Identified trends, correlations, and outliers
+
 Evaluated missing values and data quality
 
 3. Data Preprocessing
+
 Handled missing values and inconsistencies
+
 Encoded categorical variables
+
 Scaled and transformed features where necessary
+
 5. Feature Engineering
+
 Selected key variables impacting price
+
 Reduced noise and irrelevant features
+
 Improved model interpretability
 
 6. Model Development
 
 Tested multiple machine learning models:
+
 Linear Regression
+
 Decision Tree
+
 Random Forest (if applicable)
 
 5. Model Evaluation
